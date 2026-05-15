@@ -1,0 +1,8 @@
+{
+  "name": "Modern Personal Blog & Planner",
+  "description": "A high-performance personal blog template with AI-powered content planning and WordPress design recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

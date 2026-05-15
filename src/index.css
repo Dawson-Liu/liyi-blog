@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-accent-primary: #8B5CF6; /* Violet */
+  --color-accent-secondary: #06B6D4; /* Cyan */
+  --color-accent-tertiary: #F43F5E; /* Rose */
+  --color-success: #10B981;
+}
+
+body {
+  @apply bg-[#FBFBFF] text-neutral-900 selection:bg-purple-200 selection:text-purple-900;
+}
+
+.card-youthful {
+  @apply rounded-[2rem] border border-white/40 bg-white/60 p-8 transition-all hover:bg-white/80 hover:shadow-[0_20px_50px_rgba(0,0,0,0.05)];
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-violet-600 via-cyan-500 to-rose-500 bg-clip-text text-transparent opacity-90;
+}
